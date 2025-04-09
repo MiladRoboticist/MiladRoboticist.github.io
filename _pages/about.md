@@ -15,8 +15,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! This page is under construction. I want to share my research and projects on this page. Please come back in a couple of days!
-
 I am a Ph.D. student in the Robotics program at Georgia Institute of Technology, working with Dr. [Yue Chen](https://scholar.google.com/citations?user=dDPQH3oAAAAJ&hl=en) in the [BM2 Lab](https://sites.gatech.edu/labbm2/). Before joining GT, I received my M.Sc. degree in Mechatronics Engineering from Amirkabir University of Technology, and my B.Sc. degree in Mechanical Engineering from Bu Ali Sina University.
 
 I design, build, model, control, and integrate robotic systems for various applications. My primary objective is to develop innovative control methods that synergize model-based and learning approaches. My research interests include Adaptive Control, Control Theory, Learning-Based Control, Optimal Control, Trajectory Optimization, Robot Learning, Imitation Learning, Reinforcement Learning, Deep Learning, and Optimization, with a current focus on applications in Soft Robotics.
