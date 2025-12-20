@@ -2,8 +2,8 @@
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     {% if site.announcements.scrollable and news_size > 3 %}
-      <div style="max-height: 500px !important; overflow-y: auto !important; overflow-x: hidden !important; -webkit-overflow-scrolling: touch; display: block !important;">
-        <div class="table-responsive">
+      <div class="news-scrollable" style="max-height: 400px !important; overflow-y: auto !important; overflow-x: hidden !important; -webkit-overflow-scrolling: touch; display: block !important; position: relative;">
+        <div class="table-responsive" style="margin-bottom: 0;">
     {% else %}
       <div class="table-responsive">
     {% endif %}
