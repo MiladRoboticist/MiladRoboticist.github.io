@@ -6,4 +6,4 @@ related_posts: false
 title: "Flowers Family Fellowship"
 ---
 
-🏆 **[New Award!]** I am honored to have received the prestigious **Flowers Family Fellowship** in Fall 2024 from the Mechanical Engineering Department for the most cited first author publication.
+🏆 **[New Award!]** I am honored to have received the prestigious **Flowers Family Fellowship** in Fall 2024 from the Mechanical Engineering Department at Georgia Tech for the most cited first author publication.
