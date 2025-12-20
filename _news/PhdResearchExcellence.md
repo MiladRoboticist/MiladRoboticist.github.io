@@ -6,4 +6,5 @@ related_posts: false
 title: "Ph.D. Research Excellence Award"
 ---
 
-Honored to receive the **Ph.D. Research Excellence Award** from Georgia Tech’s Mechanical Engineering Department for outstanding doctoral research.
+Honored to receive the **Ph.D. Research Excellence Award** from Georgia Tech's Mechanical Engineering Department for outstanding doctoral research.  
+[Read more here](https://me.gatech.edu/news/graduate-students-receive-woodruff-school-awards)
