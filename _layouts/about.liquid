@@ -73,6 +73,14 @@ layout: default
         <div class="contact-icons">{% include social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
+        
+        {% if site.clustrmaps_id %}
+          <div style="margin-top: 20px; text-align: center;">
+            <a href="https://clustrmaps.com/site/1c25v" title="ClustrMaps" style="text-decoration: none; display: inline-block;">
+              <img src="//www.clustrmaps.com/map_v2.png?d={{ site.clustrmaps_id }}&amp;cl=ffffff" style="border: 0; max-width: 120px; height: auto; opacity: 0.7;" alt="Locations of visitors to this page" />
+            </a>
+          </div>
+        {% endif %}
       </div>
     {% endif %}
 
