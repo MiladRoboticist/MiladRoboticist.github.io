@@ -6,4 +6,4 @@ related_posts: false
 title: "Awarded Topping Fellowship for 'First Author Most Citations'"
 ---
 
-I am honored to have received the Topping Fellowship in Fall 2024 from the Mechanical Engineering Department in the category of "First Author Most Citations."
+🏆 **[New Award!]** I am honored to have received the Topping Fellowship in Fall 2024 from the Mechanical Engineering Department in the category of "First Author Most Citations."

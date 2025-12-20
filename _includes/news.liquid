@@ -1,15 +1,15 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
+    {% if site.announcements.scrollable and news_size > 3 %}
+      <div style="max-height: 500px !important; overflow-y: auto !important; overflow-x: hidden !important; -webkit-overflow-scrolling: touch; display: block !important;">
+        <div class="table-responsive">
+    {% else %}
+      <div class="table-responsive">
+    {% endif %}
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
-        {% if include.limit and site.announcements.limit %}
+        {% if include.limit and site.announcements.limit and site.announcements.limit != blank and site.announcements.limit != "" %}
           {% assign news_limit = site.announcements.limit %}
         {% else %}
           {% assign news_limit = news_size %}
@@ -27,7 +27,10 @@
           </tr>
         {% endfor %}
       </table>
-    </div>
+        </div>
+    {% if site.announcements.scrollable and news_size > 3 %}
+      </div>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}

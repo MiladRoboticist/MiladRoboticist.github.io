@@ -6,4 +6,4 @@ related_posts: false
 title: "Passed Qualifying Exam"
 ---
 
-I successfuly passed my PhD Qualifying Exam.
+🎓 **[Milestone!]** I successfully passed my PhD Qualifying Exam.

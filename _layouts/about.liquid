@@ -60,6 +60,9 @@ layout: default
     {% if page.selected_papers %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        <span style="font-size: 0.7rem; color: var(--global-text-color-light); font-weight: normal; margin-left: 0.5rem;">
+          (<a href="{{ '/publications/' | relative_url }}" style="font-size: 0.7rem; color: var(--global-text-color-light); text-decoration: none;">full list</a>{% if site.scholar_userid %} | <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" style="font-size: 0.7rem; color: var(--global-text-color-light); text-decoration: none;" target="_blank">Scholar</a>{% endif %})
+        </span>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
