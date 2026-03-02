@@ -1,7 +1,12 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
-    {% if site.announcements.scrollable and news_size > 3 %}
+    {% if include.scrollable == false %}
+      {% assign use_scrollable = false %}
+    {% else %}
+      {% assign use_scrollable = site.announcements.scrollable and news_size > 3 %}
+    {% endif %}
+    {% if use_scrollable %}
       <div class="news-scrollable" style="max-height: 400px !important; overflow-y: auto !important; overflow-x: hidden !important; -webkit-overflow-scrolling: touch; display: block !important; position: relative;">
         <div class="table-responsive" style="margin-bottom: 0;">
     {% else %}
@@ -28,7 +33,7 @@
         {% endfor %}
       </table>
         </div>
-    {% if site.announcements.scrollable and news_size > 3 %}
+    {% if use_scrollable %}
       </div>
     {% endif %}
   {% else %}
