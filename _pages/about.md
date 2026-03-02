@@ -15,9 +15,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in the Robotics program at Georgia Institute of Technology, working with Dr. [Yue Chen](https://scholar.google.com/citations?user=dDPQH3oAAAAJ&hl=en) in the [BM2 Lab](https://sites.gatech.edu/labbm2/). Before joining GT, I received my M.Sc. degree in Mechatronics Engineering from Amirkabir University of Technology, and my B.Sc. degree in Mechanical Engineering from Bu Ali Sina University.
+*Robotics Researcher | Control, Optimization, and Learning for Physical Interaction*
 
-I design, build, model, control, and integrate robotic systems for various applications. My primary objective is to develop innovative control methods that synergize model-based and learning approaches. My research interests include Adaptive Control, Control Theory, Learning-Based Control, Optimal Control, Trajectory Optimization, Robot Learning, Imitation Learning, Reinforcement Learning, Deep Learning, and Optimization, with a current focus on applications in Soft Robotics.
+I am a Ph.D. student in Robotics at the Georgia Institute of Technology, where I work with **Dr. [Yue Chen](https://scholar.google.com/citations?user=dDPQH3oAAAAJ&hl=en)** in the **[BM^2 Lab](https://sites.gatech.edu/labbm2/)**. Before joining Georgia Tech, I received my **M.Sc. in Mechatronics Engineering** from **Amirkabir University of Technology** and my **B.Sc. in Mechanical Engineering** from **Bu-Ali Sina University**.
+
+My research lies at the intersection of **control**, **optimization**, and **robot interaction under uncertainty**. I develop **theory-driven methods** for modeling, planning, and controlling robotic systems, and validate them through **end-to-end implementation** on real hardware. My work has focused on **contact modeling**, **trajectory optimization / MPC**, and **adaptive and passivity-based control**, with experimental validation on **high-DoF soft and continuum robotic platforms**.
+
+More broadly, I am interested in developing **sample-efficient, physically grounded, and robust algorithms** that combine **model-based structure** with **learning-based adaptation**. My long-term goal is to enable robots to **learn to control both their internal dynamics and their interaction with the environment**, achieving **stable and dexterous behavior under uncertainty**.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. Check5
 
