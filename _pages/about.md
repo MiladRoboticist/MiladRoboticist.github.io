@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: PhD Student in Robotics @ Georiga Tech, Roboticisit, Control Theorist
+subtitle: Ph.D. Student in Robotics @ Georgia Tech, Roboticist, Control Theorist
 
 profile:
   align: right
@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-*Robotics Researcher | Control, Optimization, and Learning for Physical Interaction*
+<p><em>Robotics Researcher | Control, Optimization, and Learning for Physical Interaction</em></p>
 
-I am a Ph.D. student in Robotics at the Georgia Institute of Technology, where I work with **Dr. [Yue Chen](https://scholar.google.com/citations?user=dDPQH3oAAAAJ&hl=en)** in the **[BM^2 Lab](https://sites.gatech.edu/labbm2/)**. Before joining Georgia Tech, I received my **M.Sc. in Mechatronics Engineering** from **Amirkabir University of Technology** and my **B.Sc. in Mechanical Engineering** from **Bu-Ali Sina University**.
+I am a Ph.D. student in Robotics at the Georgia Institute of Technology, where I work with **Dr. [Yue Chen](https://scholar.google.com/citations?user=dDPQH3oAAAAJ&hl=en)** in the <a href="https://sites.gatech.edu/labbm2/"><strong>BM<sup>2</sup> Lab</strong></a>. Before joining Georgia Tech, I received my **M.Sc. in Mechatronics Engineering** from **Amirkabir University of Technology** and my **B.Sc. in Mechanical Engineering** from **Bu-Ali Sina University**.
 
 My research lies at the intersection of **control**, **optimization**, and **robot interaction under uncertainty**. I develop **theory-driven methods** for modeling, planning, and controlling robotic systems, and validate them through **end-to-end implementation** on real hardware. My work has focused on **contact modeling**, **trajectory optimization / MPC**, and **adaptive and passivity-based control**, with experimental validation on **high-DoF soft and continuum robotic platforms**.
 
