@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
-cv_pdf: MiladAzizkhaniCV.pdf
+cv_pdf: MiladAzizkhani_2026-04-22.pdf
 description: Download the PDF via the icon on the right.
 toc:
   sidebar: left
